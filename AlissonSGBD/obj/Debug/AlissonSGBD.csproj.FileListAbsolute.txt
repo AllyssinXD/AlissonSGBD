@@ -8,3 +8,11 @@ C:\Users\Alunos\Documents\SharpDevelop Projects\AlissonSGBD\AlissonSGBD\obj\Debu
 C:\Users\Alunos\Documents\SharpDevelop Projects\AlissonSGBD\AlissonSGBD\obj\Debug\AlissonSGBD.pdb
 C:\Users\Alunos\Documents\SharpDevelop Projects\AlissonSGBD\AlissonSGBD\obj\Debug\AlissonSGBD.Database.resources
 C:\Users\Alunos\Documents\SharpDevelop Projects\AlissonSGBD\AlissonSGBD\obj\Debug\AlissonSGBD.Access.resources
+E:\O OURO TA AQUI PAE\Projetos Programação\AlissonSGBD\AlissonSGBD\obj\Debug\AlissonSGBD.csprojResolveAssemblyReference.cache
+E:\O OURO TA AQUI PAE\Projetos Programação\AlissonSGBD\AlissonSGBD\obj\Debug\AlissonSGBD.MainForm.resources
+E:\O OURO TA AQUI PAE\Projetos Programação\AlissonSGBD\AlissonSGBD\obj\Debug\AlissonSGBD.csproj.GenerateResource.Cache
+E:\O OURO TA AQUI PAE\Projetos Programação\AlissonSGBD\AlissonSGBD\obj\Debug\AlissonSGBD.exe
+E:\O OURO TA AQUI PAE\Projetos Programação\AlissonSGBD\AlissonSGBD\obj\Debug\AlissonSGBD.pdb
+E:\O OURO TA AQUI PAE\Projetos Programação\AlissonSGBD\AlissonSGBD\bin\Debug\AlissonSGBD.exe.config
+E:\O OURO TA AQUI PAE\Projetos Programação\AlissonSGBD\AlissonSGBD\bin\Debug\AlissonSGBD.exe
+E:\O OURO TA AQUI PAE\Projetos Programação\AlissonSGBD\AlissonSGBD\bin\Debug\AlissonSGBD.pdb

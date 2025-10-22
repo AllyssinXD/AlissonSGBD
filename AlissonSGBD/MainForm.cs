@@ -10,6 +10,7 @@ using System;
 using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
+using AlissonSGBD.Engine;
 
 namespace AlissonSGBD
 {
@@ -18,21 +19,18 @@ namespace AlissonSGBD
 	/// </summary>
 	public partial class MainForm : Form
 	{
+		public Core engine;
+		
 		public MainForm()
 		{
-			//
-			// The InitializeComponent() call is required for Windows Forms designer support.
-			//
 			InitializeComponent();
-			
 		}
-	
 
-		void Button1Click(object sender, EventArgs e)
+		
+		void MainFormLoad(object sender, EventArgs e)
 		{
-			this.Hide();
-			Access accessForm = new Access();
-			accessForm.Show();
+			engine = new Core();
+			this.Close();
 		}
 	}
 }
