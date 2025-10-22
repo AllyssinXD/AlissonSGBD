@@ -1,0 +1,10 @@
+C:\Users\Alunos\Documents\SharpDevelop Projects\AlissonSGBD\AlissonSGBD\obj\Debug\AlissonSGBD.csprojResolveAssemblyReference.cache
+C:\Users\Alunos\Documents\SharpDevelop Projects\AlissonSGBD\AlissonSGBD\obj\Debug\AlissonSGBD.MainForm.resources
+C:\Users\Alunos\Documents\SharpDevelop Projects\AlissonSGBD\AlissonSGBD\obj\Debug\AlissonSGBD.csproj.GenerateResource.Cache
+C:\Users\Alunos\Documents\SharpDevelop Projects\AlissonSGBD\AlissonSGBD\bin\Debug\AlissonSGBD.exe.config
+C:\Users\Alunos\Documents\SharpDevelop Projects\AlissonSGBD\AlissonSGBD\bin\Debug\AlissonSGBD.exe
+C:\Users\Alunos\Documents\SharpDevelop Projects\AlissonSGBD\AlissonSGBD\bin\Debug\AlissonSGBD.pdb
+C:\Users\Alunos\Documents\SharpDevelop Projects\AlissonSGBD\AlissonSGBD\obj\Debug\AlissonSGBD.exe
+C:\Users\Alunos\Documents\SharpDevelop Projects\AlissonSGBD\AlissonSGBD\obj\Debug\AlissonSGBD.pdb
+C:\Users\Alunos\Documents\SharpDevelop Projects\AlissonSGBD\AlissonSGBD\obj\Debug\AlissonSGBD.Database.resources
+C:\Users\Alunos\Documents\SharpDevelop Projects\AlissonSGBD\AlissonSGBD\obj\Debug\AlissonSGBD.Access.resources
