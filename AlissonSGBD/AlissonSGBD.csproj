@@ -7,8 +7,9 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>AlissonSGBD</RootNamespace>
     <AssemblyName>AlissonSGBD</AssemblyName>
-    <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <AppDesignerFolder>Properties</AppDesignerFolder>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Platform)' == 'AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -47,11 +48,20 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Engine\DBAttribute.cs" />
     <Compile Include="Engine\Core.cs" />
-    <Compile Include="Engine\Database.cs" />
-    <Compile Include="Engine\Entity.cs" />
-    <Compile Include="MainForm.cs" />
+    <Compile Include="Engine\FileHelpers\FileHelper.cs" />
+    <Compile Include="Engine\SQL\AST\EntityStatementNode.cs" />
+    <Compile Include="Engine\SQL\AST\ColumnStatementNode.cs" />
+    <Compile Include="Engine\SQL\AST\StatementNode.cs" />
+    <Compile Include="Engine\SQL\AST\TSqlSelect.cs" />
+    <Compile Include="Engine\SQL\AST\TSqlStatement.cs" />
+    <Compile Include="Engine\SQL\Lexer.cs" />
+    <Compile Include="Engine\SQL\AST\ConditionStatementNode.cs" />
+    <Compile Include="Engine\SQL\Parsers\Parser.cs" />
+    <Compile Include="Engine\SQL\Parsers\SelectParser.cs" />
+    <Compile Include="MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="MainForm.Designer.cs">
       <DependentUpon>MainForm.cs</DependentUpon>
     </Compile>
@@ -67,7 +77,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Engine" />
+    <Folder Include="Engine\SQL\Models\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

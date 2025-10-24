@@ -30,7 +30,11 @@ namespace AlissonSGBD
 		void MainFormLoad(object sender, EventArgs e)
 		{
 			engine = new Core();
-			this.Close();
+		}
+		
+		void Button1Click(object sender, EventArgs e)
+		{
+			engine.TestLexer(textBox1.Text);
 		}
 	}
 }
