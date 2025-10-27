@@ -56,9 +56,12 @@
     <Compile Include="Engine\SQL\AST\TSqlSelect.cs" />
     <Compile Include="Engine\SQL\AST\TSqlStatement.cs" />
     <Compile Include="Engine\SQL\Lexer.cs" />
-    <Compile Include="Engine\SQL\AST\ConditionStatementNode.cs" />
+    <Compile Include="Engine\SQL\AST\ConditionExpressionNode.cs" />
+    <Compile Include="Engine\SQL\Parsers\Errors\ParserError.cs" />
+    <Compile Include="Engine\SQL\Parsers\Errors\SelectParserError.cs" />
     <Compile Include="Engine\SQL\Parsers\Parser.cs" />
     <Compile Include="Engine\SQL\Parsers\SelectParser.cs" />
+    <Compile Include="Engine\SQL\Utils\Utils.cs" />
     <Compile Include="MainForm.cs">
       <SubType>Form</SubType>
     </Compile>

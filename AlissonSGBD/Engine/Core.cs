@@ -26,9 +26,6 @@ namespace AlissonSGBD.Engine
 		
 		public void TestLexer(string sql) {
 			List<Token> tokens = lexer.Tokenize(sql);
-			foreach(Token token in tokens){
-				Debug.WriteLine("[" + token.Value + " : " + token.Type + "]");
-			}
 
 			TSqlStatement tree = parser.Parse(tokens);
 			if (tree != null)

@@ -11,6 +11,7 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Windows.Forms;
 using AlissonSGBD.Engine;
+using AlissonSGBD.Engine.SQL.Parsers.Errors;
 
 namespace AlissonSGBD
 {
@@ -34,7 +35,19 @@ namespace AlissonSGBD
 		
 		void Button1Click(object sender, EventArgs e)
 		{
-			engine.TestLexer(textBox1.Text);
-		}
-	}
+			try
+			{
+				engine.TestLexer(textBox1.Text);
+			}
+			catch (Exception err) {
+				if (err is ParserError) { 
+					MessageBox.Show("[Code " +
+						(err as ParserError).Code + "] " + err.Message);
+                }
+                else
+					throw;
+			}
+
+        }
+    }
 }

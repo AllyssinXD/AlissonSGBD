@@ -10,7 +10,7 @@ namespace AlissonSGBD.Engine.SQL.AST
 {
     class TSqlSelect : TSqlStatement
     {
-        public TSqlSelect(EntityStatementNode[] entities, ColumnStatementNode[] columns, ConditionStatementNode conditions)
+        public TSqlSelect(EntityStatementNode[] entities, ColumnStatementNode[] columns, ConditionExpressionNode conditions)
         {
             StatementNode entityNodes = new StatementNode();
             entityNodes.Value = "FROM";
@@ -22,11 +22,9 @@ namespace AlissonSGBD.Engine.SQL.AST
             columnNodes.Children = new List<StatementNode>(columns);
             Children.Add(columnNodes);
 
-            if (conditions != null) { 
-                StatementNode conditionsNodes = new StatementNode();
-                conditionsNodes.Value = "Conditions";
-                conditionsNodes.Children = new List<StatementNode>() { conditions };
-                Children.Add(conditionsNodes);
+            if (conditions.Children.Count > 0) {
+                conditions.Value = "Conditions";
+                Children.Add(conditions);
             }
 
             Value = "SELECT";
